@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2021",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+
+    "types": ["node"],       // <-- garante as tipagens do Node
+    "lib": ["ES2021"]        // <-- opcional, deixa explícito o padrão
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "test", "**/*.spec.ts"]
+}
