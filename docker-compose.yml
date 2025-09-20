@@ -1,7 +1,7 @@
 services:
-  java_spring:
-    build: ./java-spring
+  node_express:
+    build: ./node-express
     environment:
-      PORT: 8080
+      PORT: 8083
     ports:
-      - "8080:8080"
+      - "8083:8083"
